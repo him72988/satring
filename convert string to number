@@ -1,0 +1,15 @@
+convert string to number
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String args[]) {
+        Scanner sc=new Scanner(System.in);
+        String n =sc.nextLine();
+    n+=5;
+    int num=Integer.parseInt(n);
+    num+=5;
+      
+       System.out.println( n);
+        System.out.println( num);
+ }
+    
+    }
